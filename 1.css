@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(29, 35, 28);
+}
+
+.buttons {
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    color: black;
+    background-color: white;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 10px;
+}
+
+.buttons:hover {
+    background-color: rgb(104, 99, 92);
+}
+
+#reset {
+    font-size: 30px;
+    height: 50px;
+    width: 350px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+#reset:hover {
+    background-color: rgb(104, 99, 92);
+}
+
+h1 {
+    color: white;
+}
